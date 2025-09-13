@@ -19,7 +19,6 @@ if img.mode == 'L':
         (1, 2): 2 / 32,
     } #  kernel de difusão de erro ref: 
 
-    colormap = np.array([0, 255], dtype=np.float32)
 
     arr_dith = arr.copy()
 
