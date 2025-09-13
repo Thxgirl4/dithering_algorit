@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = Image.open("arte.webp")
+img = Image.open("arte.webp").convert('L')
 img_original = img.copy()
 
 if img.mode == 'L':
