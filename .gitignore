@@ -1,0 +1,7 @@
+/lib/python3.8/site-packages
+/lib/python3.8/site-packages/*
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+my_venv/
